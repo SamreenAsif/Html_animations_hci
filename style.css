@@ -1,0 +1,88 @@
+body
+{
+	margin:0;
+	padding:0;
+	background: url("kawaiibackground.png");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size: 100% 100%;
+}
+.imageColumn {
+   float: left;
+   width: 25%;
+   padding: 10px;
+}
+
+h1 
+{
+    text-shadow: 2px 2px purple;
+}
+.move-image
+{
+	width : 250px;
+	height: 250px ;
+	background : url("Apple.png");
+        border: 5px dotted Hotpink;
+	margin-left: 50% ;
+	margin-top : 5% ;
+
+}
+.move-image img
+{
+	animation : 4s infinite alternate mymove;
+	animation-play-state : paused ;
+}
+.move-image img:hover 
+{
+	animation-play-state : running ;
+}
+.move-image2
+{
+	width : 250px;
+	height: 250px ;
+	background : url("Ball.png");
+        border: 5px dotted Hotpink;
+	margin-left: 50% ;
+	margin-top : 5% ;
+
+}
+.move-image2 img
+{
+	animation : 4s infinite alternate mymove;
+	animation-play-state : paused ;
+}
+.move-image2 img:hover 
+{
+	animation-play-state : running ;
+}
+
+.move-image3
+{
+	width : 250px;
+	height: 250px ;
+	background : url("Kawaii_Cat.png");
+        border: 5px dotted Hotpink;
+	margin-left: 50% ;
+	margin-top : 5% ;
+
+}
+.move-image3 img
+{
+	animation : 4s infinite alternate mymove;
+	animation-play-state : paused ;
+}
+.move-image3 img:hover 
+{
+	animation-play-state : running ;
+}
+@keyframes mymove
+{
+	from { width:250px ;}
+	to   { width:100px ;}
+
+	from { height:250px ;}
+	to   { height:100px ;}
+
+	from { opacity : 1 ;}
+	to   { opacity : 0 ;}
+}
